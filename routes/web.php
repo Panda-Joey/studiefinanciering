@@ -16,8 +16,12 @@ Route::get('/aanvraag', function () {
     return Inertia::render('aanvraag');
 });
 
-Route::get('/aanmerking', function () {
-    return Inertia::render('aanmerking');
+Route::get('/MBO', function () {
+    return Inertia::render('MBO');
+});
+
+Route::get('/HBO_WO', function () {
+    return Inertia::render('HBO_WO');
 });
 
 Route::get('/terugbetaling', function () {

@@ -13,7 +13,8 @@ import '../../css/app.css'
      <nav class="bg-[#327b7d] text-white p-4 flex gap-6">
           <Link  href="/" class="font-bold hover:bg-[#2c8485] rounded-2xl ">Home</Link>
           <Link href="/krijgen " class="font-bold hover:bg-[#2c8485] rounded-2xl">Wat kan ik krijgen?</Link>
-          <Link href="/aanmerking" class="font-bold hover:bg-[#2c8485] rounded-2xl">Kom ik in aanmerking?</Link>
+          <Link href="/MBO" class="font-bold hover:bg-[#2c8485] rounded-2xl">MBO</Link>
+          <Link href="/HBO_WO" class="font-bold hover:bg-[#2c8485] rounded-2xl">HBO/WO</Link>
           <Link href="/aanvraag" class="font-bold hover:bg-[#2c8485] rounded-2xl">Aanvragen</Link>
           <Link href="/terugbetaling" class="font-bold hover:bg-[#2c8485] rounded-2xl">Terugbetaling</Link>
           <Link href="/deadlines" class="font-bold hover:bg-[#2c8485] rounded-2xl">Deadlines</Link>
@@ -22,13 +23,13 @@ import '../../css/app.css'
         </nav>
 
     <!-- Content -->
-    <main class="bg-gray-200 flex-1 p-8">
+   
       <slot />
-    </main>
+   
 
     <!-- Footer -->
     <footer class="bg-[#327b7d] text-white p-4 text-center">
-      © 2026 Studiefinanciering
+       Studiefinanciering
     </footer>
 
   </div>

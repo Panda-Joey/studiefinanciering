@@ -14,9 +14,7 @@ export default {
        
       </div>
 
-        <div class="w-full">
-          <img src="/foto/slaapend.jpg" class="w-full h-auto rounded-2xl shadow">
-        </div>  
+      
 
 
   
@@ -25,20 +23,31 @@ export default {
     <!-- Background veranderen -->
      <div class="bg-gray-100 rounded-2xl shadow p-10 flex-grow">   
       
-      <h1 class="text-orange-500 text-4xl font-bold mb-4" style="display: flex; justify-content: center;">
-        Alles over studiefinanciering
-      </h1>
+     <div class="relative">
+  <img src="/foto/weegje.png" class="w-full h-[400px] object-cover">
+
+  <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-white text-4xl md:text-5xl font-bold mb-4">
+      Alles over studiefinanciering
+    </h1>
+
+    <p class="text-white text-lg max-w-xl mb-6">
+      Ontdek in 2 minuten waar jij recht op hebt en hoe je het aanvraagt.
+    </p>
+
+    <Link href="/aanmerking" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-semibold">
+      Check jouw recht →
+    </Link>
+  </div>
+</div>
 
 
-
-
-   
 
     <p class="text-lg text-gray-700 mb-6">
-      Ga je studeren of studeer je al? Dan heb je misschien recht op
+      Ga je studeren of studeer je al en ben je 18 of ouder? Dan heb je recht op
       studiefinanciering. Op deze website leggen we op een eenvoudige manier
       uit welke financiële ondersteuning je kunt krijgen en hoe je dit kunt
-      aanvragen.
+      aanvragen en/of je het terug moet betalen.
     </p>
 
      <p class="text-gray-700 mb-6">
@@ -52,7 +61,11 @@ export default {
       Op deze website vind je duidelijke uitleg over:
     </p>
 
+  
+
     <div class="grid md:grid-cols-2 gap-6 mt-8">
+
+  
   
   <div class="bg-[#296d6e] p-6 rounded-2xl shadow hover:bg-[#2c8485]">
     <Link href="/krijgen">
@@ -82,6 +95,20 @@ export default {
     </Link>
   </div>
 
+</div>
+
+
+
+
+
+
+<div class="bg-blue-100 border-l-4 border-blue-500 p-4 rounded mb-6">
+  <p class="font-semibold text-blue-800">
+    💡 Wist je dat?
+  </p>
+  <p class="text-blue-700">
+    Je gratis kunt reizen met het openbaar vervoer als je een studentenreisproduct hebt aangevraagd. Wil je meer weten over wat je allemaal kunt aanvragen? <Link href="/aanvraag" class="text-blue-500 underline">Lees hier meer</Link>.
+  </p>
 </div>
 
       
