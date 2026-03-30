@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
 
-    <p class="text-black">Hoi Lee-Ann</p>
+    <p class="text-black">Hoi joey</p>
 
 
 </template>
