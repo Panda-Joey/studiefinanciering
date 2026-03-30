@@ -20,6 +20,7 @@ import '../../css/app.css'
           <Link href="/deadlines" class="font-bold hover:bg-[#2c8485] rounded-2xl">Deadlines</Link>
           <Link href="/faq" class="font-bold hover:bg-[#2c8485] rounded-2xl">FAQ</Link>
           <Link href="/fouten" class="font-bold hover:bg-[#2c8485] rounded-2xl">Fouten</Link>
+          <Link href="/test_pagina" class="font-bold hover:bg-[#2c8485] rounded-2xl">testing</Link>
         </nav>
 
     <!-- Content -->

@@ -45,3 +45,6 @@ Route::get('/enqueteStufie', function () {
 });
 
 
+Route::get('/test_pagina', function () {
+    return Inertia::render('test_pagina');
+});

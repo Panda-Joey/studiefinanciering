@@ -32,7 +32,7 @@ const resultaat = computed(() => {
 
 <!-- Kleuren aanpasssen want ik kan niks zien -->
 <template>
-<div class="bg-pink-300 p-10 rounded-2xl shadow max-w-5xl mx-auto">
+<div class="display: bg-pink-300 p-10  shadow ">
 <p class="text-sm text-gray-500 mt-4">
   Dit is een schatting. Voor exacte bedragen kijk op DUO.nl
 </p>
