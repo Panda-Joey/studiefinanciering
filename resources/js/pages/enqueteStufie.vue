@@ -37,6 +37,15 @@ const resultaat = computed(() => {
   Dit is een schatting. Voor exacte bedragen kijk op DUO.nl
 </p>
 <h2 class="text-2xl font-bold mb-6">Studiefinanciering check</h2>
+ <!-- Vraag 3 -->
+  <div class="mb-4">
+    <p>Opleiding</p>
+    <select v-model="opleiding" class="w-full p-2 border rounded">
+      <option value="" class="text-black">Maak een keuze</option>
+      <option value="mbo" class="text-black">MBO</option>
+      <option value="hbo" class="text-black">HBO / WO</option>
+    </select>
+  </div> 
 
   <!-- Vraag 1 -->
   <div class="mb-4">
@@ -59,15 +68,6 @@ const resultaat = computed(() => {
     </select>
   </div>
 
-  <!-- Vraag 3 -->
-  <div class="mb-4">
-    <p>Opleiding</p>
-    <select v-model="opleiding" class="w-full p-2 border rounded">
-      <option value="" class="text-black">Maak een keuze</option>
-      <option value="mbo" class="text-black">MBO</option>
-      <option value="hbo" class="text-black">HBO / WO</option>
-    </select>
-  </div>
 
   <!-- Resultaat -->
   <div class="text-black">
